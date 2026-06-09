@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 
 const stats = [
   { value: 10, suffix: "+", label: "Projects Built", description: "From concept to deployment" },
-  { value: 2, suffix: "+", label: "Years Learning & Building", description: "Every single day" },
+  { value: 3, suffix: "+", label: "Years Learning & Building", description: "Every single day" },
   { value: 1000, suffix: "+", label: "Hours of Coding", description: "And counting" },
   { value: "∞", suffix: "", label: "Curiosity to Learn", description: "Limitless growth mindset" },
 ];

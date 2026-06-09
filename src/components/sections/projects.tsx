@@ -27,13 +27,13 @@ const projects = [
   {
     id: 2,
     featured: false,
-    title: "Food Delivery Platform",
-    tagline: "Modern Ordering Experience",
+    title: "Automated Parking System",
+    tagline: "Smart Infrastructure Solution",
     description:
-      "Modern food ordering system with real-time order tracking and secure payment integration. Supports multiple restaurants, real-time delivery tracking on a live map.",
+      "A fully automated parking management system that handles vehicle entry, exit, slot assignment, and billing — reducing manual overhead and maximizing space efficiency.",
     details:
-      "Full-stack application with restaurant management dashboard, customer ordering flow, real-time order tracking via WebSockets, and Stripe payment integration. Mobile-first responsive design.",
-    stack: ["Next.js", "Firebase", "Stripe"],
+      "Built with real-time slot tracking, automated gate control simulation, billing calculation per hour, and an admin dashboard showing live occupancy. Designed with scalability for large parking facilities.",
+    stack: ["Java", "MySQL", "JavaFX"],
     gradient: "from-orange-600/15 via-amber-600/10 to-transparent",
     border: "border-orange-500/25",
     glow: "shadow-orange-500/15",
@@ -44,13 +44,13 @@ const projects = [
   {
     id: 3,
     featured: false,
-    title: "AI Study Assistant",
-    tagline: "Intelligent Academic Companion",
+    title: "Library Management System",
+    tagline: "Digital Library Platform",
     description:
-      "An intelligent academic companion that summarizes notes, generates quizzes, and answers student questions using OpenAI's API.",
+      "A comprehensive library management system for tracking books, members, borrowing records, and overdue fines with a clean admin interface.",
     details:
-      "Students upload their notes and the AI generates summaries, creates practice quizzes, and answers questions in context. Supports multiple file formats and has a conversation-style interface for natural learning.",
-    stack: ["Python", "OpenAI API", "React"],
+      "Features full CRUD for books and members, borrowing and return workflows, automatic fine calculation for overdue books, search and filter by category or author, and a reporting dashboard for librarians.",
+    stack: ["Python", "SQLite", "Tkinter"],
     gradient: "from-cyan-600/15 via-blue-600/10 to-transparent",
     border: "border-cyan-500/25",
     glow: "shadow-cyan-500/15",
@@ -61,13 +61,47 @@ const projects = [
   {
     id: 4,
     featured: false,
+    title: "Smart Food Ordering System",
+    tagline: "Modern Restaurant Experience",
+    description:
+      "A smart food ordering platform that lets customers browse menus, place orders, and track delivery status in real time with a seamless checkout experience.",
+    details:
+      "Built with a restaurant menu management panel, real-time order status updates, cart management, secure checkout flow, and order history. Designed for both customers and restaurant staff.",
+    stack: ["Next.js", "Firebase", "Tailwind CSS"],
+    gradient: "from-rose-600/15 via-pink-600/10 to-transparent",
+    border: "border-rose-500/25",
+    glow: "shadow-rose-500/15",
+    demo: "#",
+    github: "https://github.com/fira29",
+    color: "rose",
+  },
+  {
+    id: 5,
+    featured: false,
+    title: "AI Study Assistant",
+    tagline: "Intelligent Academic Companion",
+    description:
+      "An intelligent academic companion that summarizes notes, generates quizzes, and answers student questions using OpenAI's API.",
+    details:
+      "Students upload their notes and the AI generates summaries, creates practice quizzes, and answers questions in context. Supports multiple file formats and has a conversation-style interface for natural learning.",
+    stack: ["Python", "OpenAI API", "React"],
+    gradient: "from-indigo-600/15 via-purple-600/10 to-transparent",
+    border: "border-indigo-500/25",
+    glow: "shadow-indigo-500/15",
+    demo: "#",
+    github: "https://github.com/fira29",
+    color: "indigo",
+  },
+  {
+    id: 6,
+    featured: false,
     title: "Portfolio Website",
     tagline: "This Very Website",
     description:
       "Responsive personal portfolio focused on storytelling, interaction, and performance. Cinematic loading, smooth animations, glassmorphism design.",
     details:
-      "Built from scratch with Next.js 15, TypeScript, Tailwind CSS, and Framer Motion. Features a custom loading sequence, particle background, magnetic buttons, tilt cards, and a contact form with validation.",
-    stack: ["React", "Framer Motion", "Tailwind CSS"],
+      "Built from scratch with Next.js, TypeScript, Tailwind CSS, and Framer Motion. Features a custom loading sequence, spider web background, magnetic buttons, tilt cards, and a contact form with validation.",
+    stack: ["Next.js", "Framer Motion", "Tailwind CSS"],
     gradient: "from-emerald-600/15 via-green-600/10 to-transparent",
     border: "border-emerald-500/25",
     glow: "shadow-emerald-500/15",
@@ -82,6 +116,8 @@ const colorAccent: Record<string, string> = {
   orange: "text-orange-400",
   cyan: "text-cyan-400",
   emerald: "text-emerald-400",
+  rose: "text-rose-400",
+  indigo: "text-indigo-400",
 };
 
 export default function Projects() {
